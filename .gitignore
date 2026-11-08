@@ -1,0 +1,23 @@
+# Python 自动生成的缓存文件
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Python 虚拟环境和 VS Code 本地配置
+.venv/
+.vscode/
+
+# Python 打包生成的文件（新增）
+*.egg-info/
+build/
+dist/
+
+# 仿真输出文件
+outputs/*
+!outputs/.gitkeep
+
+# 训练数据和模型
+data/generated/
+checkpoints/
+*.pth
+*.pt
